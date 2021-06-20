@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech Elevator Popsicles</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header>
+        <img id="te-popsicle" src="images/te-pops.png" alt="Tech Elevator Popsicle logo">
+        <h1 id="headline">Tech Elevator Popsicles</h1>
+    </header>
+    <nav>
+        <ul>
+            <li id="Home"><a href="index.html">Home</a></li>
+            <li id="store"><a href="#">Store</a></li>
+            <li id="contact-us"><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main id="contact-us-page">
+        <section id="contact-us-section">
+            <h2>Contact Us</h2>
+            <form id="contact-us-form">
+    
+                <label for="Name">Name<input name="Name" type="text" /></label>
+    
+                <label for="howHear">How did you hear of us? <select name="howHear">
+                        <option value="PopsicleMonthly" selected>Popsicle Monthly</option>
+                        <option value="WordofMouth">Word of Mouth</option>
+                        <option value="BathroomWall">Bathroom Wall</option>
+                    </select></label>
+                <label for="favColor">What color is your favorite popsicle?
+                    <input name="favColor" type="color"
+                        value="#00afef" /></label>
+                <label for="comments">Please let us know any comments you have:
+                    <textarea name="comments"></textarea></label>
+                <input id="submit" type="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        &copy; Tech Elevator 2021
+    </footer>
+</body>
+</html>
